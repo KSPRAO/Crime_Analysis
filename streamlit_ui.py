@@ -7,7 +7,7 @@ st.title("CrimePulse India: State-Wise Crime Prediction (2001-2012)")
 st.write("Analyze and predict crime trends across Indian states.")
 
 # Load data for dropdowns
-data_path = r"C:\Users\kspra\OneDrive\Desktop\CRIME ANALYSIS\data\newtrial - Sheet 1 - 01_District_wise_crim 2.csv"
+data_path = r"data/newtrial - Sheet 1 - 01_District_wise_crim 2.csv"
 df = pd.read_csv(data_path)
 states = sorted(df['STATE/UT'].unique())
 years = list(range(2001, 2013))
